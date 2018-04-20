@@ -1,0 +1,52 @@
+Simulation of Newton’s second law of motion       
+
+
+    1. To find the acceleration of the object
+    2. To find the change in velocity per second
+    3. To find the displacement of objet over time per second 
+
+
+Prerequisites:
+
+     the code require python2.7,
+     install python matplotlib library, To install it in linux the command given  
+     below in Installing section
+ 
+
+Installing:
+      
+      open terminal and write following command
+
+      sudo apt-get install python-matplotlib
+
+
+How To Run:
+     
+      1. open terminal
+      2. Pursue the path in terminal(ex. cd /home/anirudh/../.. ) where
+         newton_law.py file is save
+      3. Run the program by writing below line
+         python newton_law.py
+
+Input:
+      After the execution start it ask for input. Type of input is integer or 
+      float
+
+      1. force we want to apply on the object (unit is Newton)
+      2. The mass of object on which we are applying force(Unite is Kg)
+      3. The reverse force generate due to friction with surface.unite of
+         measurement is Newton
+         (friction less surface have zero reverse force)
+      4. how much distance will object have to cover in meter
+      
+Output:
+      1. output.txt file will generate after the execution of program.
+         output.txt contain Time,Velocity,Distance table. Table shows
+         how distance and velocity increase per second
+      2. the live scatter plot will generate and it shows the change in velocity 
+          and distance cover per second
+      3. the program print live calculated data on terminal
+ 
+Author:
+
+      Name- Aniruddha B. Ingle
